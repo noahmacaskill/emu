@@ -86,7 +86,7 @@ namespace MetadataUtility.Tests.Serialization
             var builder = WriteRecord(serializer, wrapper);
 
             Assert.Equal(
-                TestHelpers.Extensions.toCrLf(@"Range
+                TestHelpers.Extensions.ToCrLf(@"Range
 ""[1, 2)""
 "),
                 builder.ToString());
@@ -101,7 +101,7 @@ namespace MetadataUtility.Tests.Serialization
             var builder = WriteRecord(serializer, wrapper);
 
             Assert.Equal(
-                TestHelpers.Extensions.toCrLf(@"Range
+                TestHelpers.Extensions.ToCrLf(@"Range
 ""[-4, -2)""
 "),
                 builder.ToString());

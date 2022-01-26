@@ -14,7 +14,7 @@ namespace MetadataUtility.Tests.TestHelpers
             fileSystem.AddFile(path, string.Empty);
         }
 
-        public static string toCrLf(string str)
+        public static string ToCrLf(string str)
         {
             return Regex.Replace(str, @"\r\n|\n\r|\n|\r", "\r\n");
         }
